@@ -1,0 +1,96 @@
+เอาสิ่งที่เก็บไว้จาก    git@github.com:rawiwong/laughing-duck.git  (ทำไว้ทดสอบโปรแกรม)
+
+โปรแกรมที่ต้องลง
+
+postgresql-9.5.1-1-Linux64
+File Copy
+ganttproject_2.7.2-r1954-1_all
+				Sublime Text 2.0.2
+
+jd-gui_1.4.0-0_all.deb
+
+เซต Printer Brother-MFC-J430W
+
+				Dia
+				VCL Media Player
+				pgadmin3_1.22.0
+				smartgit-7_1_3.deb
+
+-------------------------
+
+   sudo dpkg -i smartgit-7_1_3.deb
+dpkg: error processing package smartgit (--install):
+ dependency problems - leaving unconfigured
+Processing triggers for bamfdaemon (0.5.3~bzr0+16.04.20160523-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for gnome-menus (3.13.3-6ubuntu3.1) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu5) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Errors were encountered while processing:
+ smartgit
+
+
+ลองทำหน้าใหม่ โดยใช้คำสั่ง
+
+sudo apt-get -f install smartgit
+
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+smartgit is already the newest version (7.1.3).
+You might want to run 'apt-get -f install' to correct these:
+The following packages have unmet dependencies:
+ smartgit : Depends: openjdk-8-jre-headless but it is not going to be installed or
+                     openjdk-7-jre-headless but it is not installable or
+                     java-runtime-headless
+            Recommends: mercurial but it is not going to be installed
+E: Unmet dependencies. Try 'apt-get -f install' with no packages (or specify a solution).
+
+--------
+
+เมื่อเกิด Error Unmet dependencies ให้ลองคำสั่ง 'apt-get -f install' ตามที่โปรแกรมฟ้องออกมา
+
+Try apt-get -f install
+
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Correcting dependencies... Done
+The following packages were automatically installed and are no longer required:
+  kde-l10n-engb kde-l10n-th libpango1.0-0 libpangox-1.0-0
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  ca-certificates-java java-common openjdk-8-jre-headless
+Suggested packages:
+  default-jre openjdk-8-jre-jamvm fonts-ipafont-gothic fonts-ipafont-mincho ttf-wqy-microhei | ttf-wqy-zenhei
+  fonts-indic
+The following NEW packages will be installed:
+  ca-certificates-java java-common openjdk-8-jre-headless
+0 upgraded, 3 newly installed, 0 to remove and 5 not upgraded.
+1 not fully installed or removed.
+Need to get 26.9 MB of archives.
+After this operation, 99.2 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://th.archive.ubuntu.com/ubuntu xenial/main amd64 ca-certificates-java all 20160321 [12.9 kB]
+Get:2 http://th.archive.ubuntu.com/ubuntu xenial/main amd64 java-common all 0.56ubuntu2 [7,742 B]
+Get:3 http://th.archive.ubuntu.com/ubuntu xenial-updates/main amd64 openjdk-8-jre-headless amd64 8u91-b14-0ubuntu4~16.04.1 [26.9 MB]
+Fetched 26.9 MB in 19s (1,401 kB/s)                                                                                
+Selecting previously unselected package ca-certificates-java.
+(Reading database ... 246708 files and directories currently installed.)
+Preparing to unpack .../ca-certificates-java_20160321_all.deb ...
+Unpacking ca-certificates-java (20160321) ...
+Selecting previously unselected package java-common.
+Preparing to unpack .../java-common_0.56ubuntu2_all.deb ...
+Unpacking java-common (0.56ubuntu2) ...
+Selecting previously unselected package openjdk-8-jre-headless:amd64.
+Preparing to unpack .../openjdk-8-jre-headless_8u91-b14-0ubuntu4~16.04.1_amd64.deb ...
+Unpacking openjdk-8-jre-headless:amd64 (8u91-b14-0ubuntu4~16.04.1) ...
+Processing triggers for ca-certificates (20160104ubuntu1) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+... อีกยาว
+
+
+=> แก้ปัญหา
+sudo apt-get -f install
+
