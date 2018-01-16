@@ -1,3 +1,7 @@
 This is file 1.txt
-Modified this text from branch B2.
-Line 3 of file.
+
+Change data in line 3
+Line 4 of file.
+
+Modified this text from branch B2 at line 6.
+ทำการแก้ไขข้อมูลเพิ่มหลังจาก Merge เข้าไปแล้ว 1 รอบ
