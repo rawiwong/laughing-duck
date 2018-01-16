@@ -1,0 +1,3 @@
+[submodule "SetupMachine/home/.docker"]
+	path = SetupMachine/home/.docker
+	url = /home/rwc/MyTest/git/laughing-duck/SetupMachine/home/.docker
