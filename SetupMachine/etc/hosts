@@ -1,0 +1,25 @@
+127.0.0.1	localhost
+127.0.1.1	rwc-Aspire-E5-575G
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+10.211.150.88 aboss-dev
+127.0.0.1 rwc-server-centos
+
+10.211.150.88   aboss-dev
+# 10.0.75.100     rwc-server-centos   # old machine
+192.168.3.10    angs-prod-backup
+192.168.3.13    angs-prod-merchant
+192.168.2.10    angs-prod-asl
+192.168.1.10    angs-prod-trinity
+10.50.71.90     angs-dr-drserver
+10.50.71.100    angs-prod-uat
+192.168.21.201  optiplex
+192.168.21.27   prl-centos
+10.8.101.101    angs-broker-test
+10.50.71.90     angs-pending-settlement

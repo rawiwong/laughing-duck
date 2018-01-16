@@ -1,0 +1,83 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 61 (0x3d)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=Angstrom Solution CA
+        Validity
+            Not Before: Oct  2 04:42:49 2017 GMT
+            Not After : Nov  2 04:42:49 2018 GMT
+        Subject: CN=rawiwong
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:bb:85:66:de:48:76:d7:53:7e:9b:70:f4:c9:bd:
+                    94:6c:41:66:41:05:ff:2b:35:cd:06:fb:fe:10:33:
+                    ec:d9:15:d0:e8:6e:1c:cf:ce:7a:ec:c9:7a:d4:8f:
+                    fb:b3:41:5d:52:91:f3:7b:9e:5e:ba:05:87:1b:29:
+                    45:26:20:4c:17:b7:b4:3b:f5:4b:47:33:94:d9:e7:
+                    7b:f8:6e:5c:a2:e4:a5:b2:1b:29:a9:63:91:63:a6:
+                    19:e5:06:93:53:71:e8:2f:a3:6b:93:83:2a:1e:1e:
+                    3d:ca:51:88:cc:7a:09:5b:fe:28:69:b1:9d:22:ff:
+                    07:fe:b0:c3:71:8e:47:83:8a:40:ea:81:e2:d3:bd:
+                    e9:e9:f8:bd:cc:83:c7:2e:87:7b:4f:01:21:62:65:
+                    53:a0:24:5e:80:76:9b:e7:d7:13:d0:cb:2d:6f:ab:
+                    0b:9d:69:c6:e8:10:de:ba:08:57:f1:d0:2d:9f:53:
+                    e8:1e:3a:2b:b2:c6:28:0e:32:b2:25:d1:d3:eb:ed:
+                    4a:a2:f2:f8:96:2c:c6:e1:a2:19:42:6c:94:69:0e:
+                    73:29:4a:d5:e5:b5:8c:59:e2:8d:a3:55:dd:f4:2b:
+                    30:17:93:84:68:14:7d:f3:f3:fb:b2:0a:79:0b:0c:
+                    8a:ee:46:36:fe:16:d5:25:1a:59:61:57:1a:5a:b8:
+                    6c:cb
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                98:7E:D5:30:A7:DB:1B:BF:2C:35:0A:83:9F:5A:99:3F:C6:4F:DD:C4
+            X509v3 Authority Key Identifier: 
+                keyid:AF:BD:60:D8:C8:0A:D0:40:20:38:F4:0C:58:49:34:AF:AC:DB:CB:5B
+                DirName:/CN=Angstrom Solution CA
+                serial:A6:B1:FA:A3:A2:73:88:66
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha256WithRSAEncryption
+         c0:d1:54:e8:33:2e:24:3b:51:69:42:42:c7:d7:52:a7:93:b0:
+         28:15:d5:95:61:66:51:98:8c:04:38:27:40:f6:6e:7e:d7:92:
+         f1:f1:23:02:d8:6f:b7:cf:18:06:4d:ed:c6:3a:ae:54:49:62:
+         e5:28:4c:4d:5f:3d:5e:33:7b:48:f1:16:85:6b:b8:f9:06:00:
+         bf:23:80:f2:df:86:a2:47:67:8d:41:ab:b2:f1:da:79:a0:d9:
+         25:4a:b1:61:87:30:46:f2:bb:ee:2d:d8:b0:91:07:ea:a1:ee:
+         34:60:b4:d6:03:58:8e:91:79:b8:62:5a:9f:bd:28:a9:f5:9a:
+         b7:39:02:ab:cc:d5:6f:20:26:3f:a6:e7:99:18:dd:76:5c:7d:
+         9a:64:72:ff:d8:ad:63:13:57:67:15:d8:2d:3c:9e:ee:36:9f:
+         b8:68:bd:e1:1f:0d:f4:ed:07:08:26:1e:3b:19:0b:7d:8f:57:
+         83:9f:55:5b:87:27:82:f5:74:56:b5:d2:bd:0f:b2:de:ad:d3:
+         56:d9:cf:96:4a:3f:b8:32:45:d4:67:b7:7b:48:87:48:6c:cc:
+         19:95:b4:01:90:b3:63:47:ce:03:a7:c0:fe:86:c3:09:a2:15:
+         a9:88:27:1a:6e:43:28:8e:e9:69:6f:73:4a:4b:36:48:11:89:
+         4d:29:ce:64
+-----BEGIN CERTIFICATE-----
+MIIDTjCCAjagAwIBAgIBPTANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDExRBbmdz
+dHJvbSBTb2x1dGlvbiBDQTAeFw0xNzEwMDIwNDQyNDlaFw0xODExMDIwNDQyNDla
+MBMxETAPBgNVBAMMCHJhd2l3b25nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAu4Vm3kh211N+m3D0yb2UbEFmQQX/KzXNBvv+EDPs2RXQ6G4cz8567Ml6
+1I/7s0FdUpHze55eugWHGylFJiBMF7e0O/VLRzOU2ed7+G5couSlshspqWORY6YZ
+5QaTU3HoL6Nrk4MqHh49ylGIzHoJW/4oabGdIv8H/rDDcY5Hg4pA6oHi073p6fi9
+zIPHLod7TwEhYmVToCRegHab59cT0Mstb6sLnWnG6BDeughX8dAtn1PoHjorssYo
+DjKyJdHT6+1KovL4lizG4aIZQmyUaQ5zKUrV5bWMWeKNo1Xd9CswF5OEaBR98/P7
+sgp5CwyK7kY2/hbVJRpZYVcaWrhsywIDAQABo4GgMIGdMAkGA1UdEwQCMAAwHQYD
+VR0OBBYEFJh+1TCn2xu/LDUKg59amT/GT93EME8GA1UdIwRIMEaAFK+9YNjICtBA
+IDj0DFhJNK+s28tboSOkITAfMR0wGwYDVQQDExRBbmdzdHJvbSBTb2x1dGlvbiBD
+QYIJAKax+qOic4hmMBMGA1UdJQQMMAoGCCsGAQUFBwMCMAsGA1UdDwQEAwIHgDAN
+BgkqhkiG9w0BAQsFAAOCAQEAwNFU6DMuJDtRaUJCx9dSp5OwKBXVlWFmUZiMBDgn
+QPZufteS8fEjAthvt88YBk3txjquVEli5ShMTV89XjN7SPEWhWu4+QYAvyOA8t+G
+okdnjUGrsvHaeaDZJUqxYYcwRvK77i3YsJEH6qHuNGC01gNYjpF5uGJan70oqfWa
+tzkCq8zVbyAmP6bnmRjddlx9mmRy/9itYxNXZxXYLTye7jafuGi94R8N9O0HCCYe
+OxkLfY9Xg59VW4cngvV0VrXSvQ+y3q3TVtnPlko/uDJF1Ge3e0iHSGzMGZW0AZCz
+Y0fOA6fA/obDCaIVqYgnGm5DKI7paW9zSks2SBGJTSnOZA==
+-----END CERTIFICATE-----
